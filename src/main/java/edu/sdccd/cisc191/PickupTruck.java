@@ -1,7 +1,7 @@
 package edu.sdccd.cisc191;
 
 public class PickupTruck extends Vehicle {
-    private int cargoCapacity;
+    private final int cargoCapacity;
 
     public PickupTruck(String manufacturerName, int milesOnVehicle, int price, int numberOfSeats, Option[] options, int cargoCapacity) {
         super(manufacturerName, milesOnVehicle, price, numberOfSeats, options);

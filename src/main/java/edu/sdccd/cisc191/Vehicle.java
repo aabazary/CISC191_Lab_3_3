@@ -1,11 +1,11 @@
 package edu.sdccd.cisc191;
 
 public class Vehicle {
-    private String manufacturerName;
-    private int milesOnVehicle;
-    private int price;
-    private int numberOfSeats;
-    private Option[] options;
+    private final String manufacturerName;
+    private final int milesOnVehicle;
+    private final int price;
+    private final int numberOfSeats;
+    private final Option[] options;
 
     public Vehicle(String manufacturerName, int milesOnVehicle, int price, int numberOfSeats, Option[] options) {
         this.manufacturerName = manufacturerName;
